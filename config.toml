@@ -1,4 +1,4 @@
-baseURL = "https://xxm404.github.io"
+baseURL = "https://xxm404.github.io/"
 title = "辛二's Blog"
 languageCode = "zh-hans"
 theme = "hermit"
@@ -13,7 +13,7 @@ pygmentsCodefences = true
 pygmentsUseClasses  = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsStyle = "dracula"
-defaultContentDir = "post"
+defaultContentDir = "posts"
 
 enableGitInfo = true
 
@@ -64,7 +64,7 @@ enableGitInfo = true
 
   [[params.social]]
     name = "email"
-    url = "mail:xinmian404@gmail.com"
+    url = "xinmian404@gmail.com"
 
 [params.meta]
   description = "辛二's Blog"
@@ -74,7 +74,7 @@ enableGitInfo = true
 
   [[menu.main]]
     name = "文章"
-    url = "post/"
+    url = "posts/"
     weight = 10
 
     [[menu.main]]
