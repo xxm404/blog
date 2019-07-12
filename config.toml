@@ -64,7 +64,7 @@ enableGitInfo = true
 
   [[params.social]]
     name = "email"
-    url = "xinmian404@gmail.com"
+    url = "mailto:xinmian404@gmail.com"
 
 [params.meta]
   description = "辛二's Blog"
