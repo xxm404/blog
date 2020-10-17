@@ -16,7 +16,7 @@ tags:
 
 更新系统软件源`sudo apt-get update`，执行`sudo apt-get install python3.6 -y` 安装成功后，执行`python3 -V`查看
 
-![image-20201017175357727](/Users/xinmian/Library/Application Support/typora-user-images/image-20201017175357727.png)
+![image.png](https://i.loli.net/2020/10/17/h9erQ4qmPfFKptT.png)
 
 发现依然是`python3.4`，此处的`python3`是一个软链，删除这个软链，重新创建软链到`python3.6` 
 
@@ -27,7 +27,7 @@ ln -s /usr/bin/python3.6m /usr/bin/python3
 
 此时执行`python3 -V`
 
-![image-20201017175419399](/Users/xinmian/Library/Application Support/typora-user-images/image-20201017175419399.png)
+![image.png](https://i.loli.net/2020/10/17/DFW68yMcx73A5PU.png)
 
 这时执行`pip3 -V`报错
 
@@ -54,7 +54,7 @@ sudo su root
 
 执行成功后，切换回原用户，执行`pip3 -V`
 
-![image-20201017180033485](/Users/xinmian/Library/Application Support/typora-user-images/image-20201017180033485.png)
+![image.png](https://i.loli.net/2020/10/17/WFQouPmfaqzhl95.png)
 
 搞定！
 
