@@ -2,10 +2,11 @@
 title: "CurlLatency"
 date: 2020-02-16T17:51:11+08:00
 draft: false
-toc: false
+toc: true
 images:
 tags: 
-  - curl, tool
+  - curl
+  - tool
 ---
 
 ## Curl 分析请求耗时
